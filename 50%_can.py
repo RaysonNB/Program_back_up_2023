@@ -166,7 +166,7 @@ def test_point(xs, ys, d):
 
 if __name__ == "__main__":
     rospy.init_node("demo")
-    rospy.loginfo("Brian Nigga")
+    rospy.loginfo("Demo start")
 
     frame2 = None
     rospy.Subscriber("/camera/color/image_raw", Image, callback_image2)
